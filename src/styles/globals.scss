@@ -19,6 +19,18 @@ html {
   -webkit-text-adjust: 100%;
 }
 
+:root {
+  --color-ui-background: #2D2D2D;
+  --systemWhite: #FFFFFF;
+  --systemBlackDefault: #000;
+  --systemRed: #ff453a;
+  --systemRed-default: #ff4f44;
+  --systemOrange: #ff9f0a;
+  --systemGray: #98989d;
+  --systemBlueDefault: #0a84ff;
+  --borderRadiusBtn: 6px;
+}
+
 body {
   font-family:
     system-ui,
@@ -32,4 +44,5 @@ body {
     'Open Sans',
     'Helvetica Neue',
     sans-serif;
+    background-color: var(--color-ui-background);
 }

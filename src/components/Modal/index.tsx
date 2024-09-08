@@ -22,13 +22,28 @@ export default function ModalComponent(props: ModalProps) {
   }, [isOpen])
 
   const handleOutsideClick = useCallback(
-    (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
-      if (e.target === e.currentTarget) {
+    (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+      if (event.target === event.currentTarget) {
         onClose()
       }
     },
     [onClose],
   )
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      // biome-ignore lint/correctness/noConstantCondition: <explanation>
+      if (event.key === 'Escape') {
+        onClose()
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyDown)
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [onClose])
 
   if (!isOpen) return null
 

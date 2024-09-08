@@ -21,7 +21,7 @@ export default function AuthComponent(): JSX.Element {
           <input
             type="email"
             required
-            placeholder="Insira seu email"
+            placeholder="Insira seu email ou conta Apple."
             style={{
               border: `1.5px solid ${isFocused ? '#007BFF' : '#d1d5db'}`,
               padding: '8px',

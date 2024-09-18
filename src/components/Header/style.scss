@@ -1,0 +1,113 @@
+.global-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  height: 52px;
+  padding: 0 40px;
+  user-select: none;
+  color: #a3a3a3;
+  background-color: var(--systemBlackDefault);
+
+  .mobile-menu {
+    display: none;
+  }
+
+  div {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    font-weight: 400;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  .header-text-wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .header-text-wrapper p:nth-child(1) {
+    color: #a3a3a3;
+  }
+
+  .header-text-wrapper p:nth-child(1):hover {
+    color: white;
+  }
+
+  .header-text-wrapper p:nth-child(2) {
+    color: white;
+  }
+
+  .sign-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 13px;
+    position: relative;
+    border-radius: 4px;
+
+    .search-icon {
+      position: absolute;
+      left: 10px;
+      color: #a3a3a3;
+      pointer-events: none;
+    }
+
+    input {
+      color: white;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 20px;
+      width: 173px;
+      height: 30px;
+      background-color: transparent;
+      overflow: clip;
+      border: 1px solid white;
+      border-radius: 4px;
+      border-color: var(--systemWhiteDeafult);
+      padding-left: 28px;
+
+      &::placeholder {
+        color: #a3a3a3;
+        padding-left: 6.5px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .global-header {
+    .mobile-menu {
+      display: block;
+      cursor: pointer;
+    }
+
+    div {
+      display: none;
+    }
+
+    .header-text-wrapper p:nth-child(1) {
+      display: none;
+    }
+
+    input {
+      display: none;
+    }
+  }
+
+  .sign-container {
+    .search-icon {
+      display: none;
+    }
+
+    button {
+      background-color: transparent;
+      color: var(--systemBlueDefault);
+    }
+  }
+}

@@ -10,6 +10,14 @@ export const liveMatches: Matches[] = [
   },
 
   {
+    hour: '8:30 PM',
+    teams: 'Nashville vs. Cincinnati',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/kFTMQcqVcqyJnRX3tV7cAA/670x377sr.webp',
+    league: 'MLS',
+  },
+
+  {
     hour: '9:30 PM',
     teams: 'Chicago vs. New York',
     image:
@@ -22,6 +30,14 @@ export const liveMatches: Matches[] = [
     teams: 'New York City vs Kansas City',
     image:
       'https://is1-ssl.mzstatic.com/image/thumb/Sdrglk2MMJ9ePcpzmVNLVw/670x377sr.webp',
+    league: 'MLS',
+  },
+
+  {
+    hour: '7:45 PM',
+    teams: 'San Jose vs. St. Louis',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/acRQ15i52tjFlbJUdOqi0g/670x377Sports.MLSPrB1.webp?imgLogoRight=LXdtAgsFTppgIi7bdUChUw&colorRight=%23e80a4d&colorLeft=%230051BA',
     league: 'MLS',
   },
 

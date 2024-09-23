@@ -4,34 +4,40 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html {
   text-rendering: optimizeLegibility;
   image-rendering: optimizeQuality;
   font-synthesis: none;
-  font-size: 81.25%;
   scroll-behavior: smooth;
   max-width: 100%;
   max-height: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   -webkit-text-adjust: 100%;
 }
 
 :root {
-  --color-ui-background: #2D2D2D;
-  --systemWhite: #FFFFFF;
+  font-size: 81.25%;
+  --color-ui-background: #2d2d2d;
+  --color-ui-modal-background: #1d1d1f;
+  --systemWhite: #ffffff;
+  --systemMediumGray: #ececec;
   --systemBlackDefault: #000;
   --systemRed: #ff453a;
   --systemRed-default: #ff4f44;
+  --systemRedMedium: #ff5066;
   --systemOrange: #ff9f0a;
   --systemGray: #98989d;
+  --systemGrayMedium: #a3a3a3;
+  --systemGrayBG: #c3bbbb;
   --systemBlueDefault: #0a84ff;
   --borderRadiusBtn: 6px;
 }
 
 body {
+  font-size: 1.6rem;
   font-family:
     system-ui,
     -apple-system,
@@ -44,5 +50,34 @@ body {
     'Open Sans',
     'Helvetica Neue',
     sans-serif;
-    background-color: var(--color-ui-background);
+  background-color: var(--color-ui-background);
+  letter-spacing: -0.01em;
+}
+/* Estiliza toda a barra de rolagem */
+::-webkit-scrollbar {
+  width: 12px; /* Largura da barra de rolagem */
+  height: 12px; /* Altura para barra de rolagem horizontal */
+}
+
+::-webkit-scrollbar-track {
+  background: #212121; /* Cor do fundo */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #676767;
+  border-radius: 6px;
+  border: 2px solid #212121;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #9f9f9f;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+img {
+  image-resolution: from-image;
 }

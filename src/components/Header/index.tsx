@@ -34,6 +34,7 @@ export default function GlobalHeader(): JSX.Element {
             width={24}
             height={24}
             fetchPriority="high"
+            loading='lazy'
           />
           <p>Abrir TV</p>
           <a href="https://www.svgrepo.com/svg/104834/diagonal-arrow">

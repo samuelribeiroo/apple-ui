@@ -1,0 +1,28 @@
+.result-box {
+  display: flex;
+  align-items: center;
+  width: 45px !important;
+  height: 35px;
+  padding: 1px 4px;
+  padding-top: 6px;
+  border-radius: 6px;
+  position: absolute;
+  top: -120px;
+  left: 175px;
+  z-index: 10;
+  background-color: var(--systemGrayBG);
+}
+
+.scored {
+  width: 37px;
+  height: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    color: #57575E !important;
+    font-size: 11px !important;
+    font-weight: 600 !important;
+  }
+}

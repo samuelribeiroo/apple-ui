@@ -1,0 +1,29 @@
+.divider {
+  width: 100%;
+  max-width: 1260px;
+  height: 1px;
+  border: 1px solid #424242;
+  margin: 0 40px 0 40px;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+
+  @media screen and (max-width: 1024px) {
+    max-width: 900px;
+  }
+
+  @media screen and (max-width: 800px) {
+    max-width: 700px;
+  }
+
+  @media screen and (max-width: 768px) {
+    max-width: 680px;
+  }
+
+  @media screen and (max-width: 425px) {
+    max-width: 200px;
+  }
+
+  @media screen and (max-width: 600px) {
+    max-width: 300px;
+  }
+}

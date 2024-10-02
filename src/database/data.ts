@@ -1,4 +1,9 @@
-import type { Matches, FinishedMatches } from '../types'
+import type {
+  Matches,
+  FinishedMatches,
+  SeriesObjectPost,
+  MlsClubs,
+} from '../types'
 
 export const liveMatches: Matches[] = [
   {
@@ -391,5 +396,348 @@ export const acessTeams: Matches[] = [
     image:
       'https://is1-ssl.mzstatic.com/image/thumb/DV6sjbP7DNn6xbWsVUBCkg/738x416Sports.MLSPrB1.webp?imgLogoRight=KoxQJh1oznglr7JgxjD8CA&colorRight=%2364A70B&colorLeft=%23E80A4D',
     league: 'MLS Next Pro',
+  },
+]
+
+export const featuredSeries: SeriesObjectPost[] = [
+  {
+    category: 'ESPORTES',
+    title: 'Breakway',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/WEpsq2Y0XaFRxa-TTwbHuA/738x416.webp',
+    description:
+      'Explore histórias de bastidores que destacam as esperanças e os heróis da MLS.',
+  },
+
+  {
+    category: 'ESPORTES',
+    title: 'Todos os Gols!',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/H6TZ3wJ1Bd5Yi0duouU-RQ/738x416.webp',
+    description: 'Todos os lances imperdíveis, golaços e voleios do campo.',
+  },
+
+  {
+    category: 'ESPORTES',
+    title: 'Jogadores Iconicos',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/UQOEiZ4aX5mmRTcWBsKFxw/738x416.webp',
+    description:
+      'Testemunhe os destaques de cair o queixo dos melhores de todos os tempos da MLS.',
+  },
+
+  {
+    category: 'ESPORTES',
+    title: 'Jogadores em Destaque',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/6b3Z34f2AKnujxmDewCxAw/738x416.webp',
+    description: 'Saiba quem são os destaque da MLS hoje.',
+  },
+
+  {
+    category: 'ESPORTES',
+    title: 'Clássicos da MLS',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/VpDCoB_-SZhY7dte4mZlxQ/738x416.webp',
+    description:
+      'Reviva, relembre e maravilhe-se com as maiores partidas da história da liga.',
+  },
+
+  {
+    category: 'ESPORTES',
+    title: 'Momentos dos Playoffs',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/XpzevUYI2GvpQs6dZigWVg/738x416.webp',
+    description:
+      'Conheça os heróis lendários que fazem da pós-temporada da MLS uma viagem emocionante.',
+  },
+
+  {
+    category: 'ESPORTES',
+    title: 'Gols',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/BNvttKTGpQqC-RnUKXlRXQ/738x416.webp',
+    description:
+      'Explore histórias de bastidores que destacam as esperanças e os heróis da MLS.',
+  },
+
+  {
+    category: 'ESPORTES',
+    title: 'Gols',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/88VA8xYSLSQZmrRgALhHOA/738x416.webp',
+    description:
+      'Explore histórias de bastidores que destacam as esperanças e os heróis da MLS.',
+  },
+
+  {
+    category: 'ESPORTES',
+    title: 'Gols',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/Bm4bulFRUFNE_Kmgr9sHGQ/738x416.webp',
+    description:
+      'Explore histórias de bastidores que destacam as esperanças e os heróis da MLS.',
+  },
+]
+
+export const allClubs: MlsClubs[] = [
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FAtlanta.webp?alt=media&token=65afc0f8-24d5-472e-b287-b90bb367ab70',
+    name: 'Atlanta',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FAustin.webp?alt=media&token=92df8d96-aefb-43fc-b238-0858f3b92745',
+    name: 'Austin',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FCharlote.webp?alt=media&token=a24b5efd-e1dd-4b24-ad93-f7d014131ad5',
+    name: 'Charlotte',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FChicago.webp?alt=media&token=deceddd2-57ed-4f48-8179-1274fc26f32c',
+    name: 'Chicago',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FCincinnatti.webp?alt=media&token=012096c4-2a44-421c-8777-a1c2f8eded3d',
+    name: 'Cincinnati',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FColorado.webp?alt=media&token=13a3940c-5dae-448b-b059-86d4f3619c3a',
+    name: 'Colorado',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FColumbus.webp?alt=media&token=cbf7c90e-e658-4dd5-8e1f-95408b0bfe22',
+    name: 'Columbus',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FD.C..webp?alt=media&token=5276253d-669b-48a6-930e-a7d5072d891f',
+    name: 'D.C.',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FDalla.webp?alt=media&token=4c364997-959a-46d3-9b1b-c49a87e483a8',
+    name: 'Dallas',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FHouston.webp?alt=media&token=4b3d86db-3084-46af-9a5f-cbd170d9f573',
+    name: 'Houston',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FKansas.webp?alt=media&token=b5d56e59-9e54-493a-a6de-e3d98777ed80',
+    name: 'Kansas',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FLAFC.webp?alt=media&token=c7d7a931-77e0-433c-a250-8827e90a6e03',
+    name: 'LAFC',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FMIAMI.webp?alt=media&token=889e85a1-d32a-4e44-8bf8-9516187508fe',
+    name: 'Miami',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FMinesotta.webp?alt=media&token=e1c2882e-8b38-4ab6-b845-5a4beb393734',
+    name: 'Minessota',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FMontr%C3%A9al.webp?alt=media&token=fb4f1e41-d8fc-4a95-9d8a-819f288bc3c4',
+    name: 'Montréal',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FMinesotta.webp?alt=media&token=e1c2882e-8b38-4ab6-b845-5a4beb393734',
+    name: 'Minessota',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FMontr%C3%A9al.webp?alt=media&token=fb4f1e41-d8fc-4a95-9d8a-819f288bc3c4',
+    name: 'Montréal',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FNashville.webp?alt=media&token=6f3e2837-d1c6-4508-8fb8-c12d14f8ec33',
+    name: 'Nashville',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FNew%20England.webp?alt=media&token=878428a4-9a6c-4e1b-9122-f8677a45b3b6',
+    name: 'New England',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FNew%20York%20City.webp?alt=media&token=96d36cb1-b14a-4fde-aebc-cc0a7ccc0b36',
+    name: 'New York City',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FMontr%C3%A9al.webp?alt=media&token=fb4f1e41-d8fc-4a95-9d8a-819f288bc3c4',
+    name: 'Montréal',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FNew%20York.webp?alt=media&token=1973b4e1-de9d-4511-a4fe-2c575661dab1',
+    name: 'New York City Red Bull',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FOrlando.webp?alt=media&token=be11cf2d-0841-47c3-bf16-1886bc4642fd',
+    name: 'Orlando',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FPhiladelphia.webp?alt=media&token=849c6eb7-901d-44f6-a0f0-b668d7075a9f',
+    name: 'Philadelphia',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FPortalnd.webp?alt=media&token=ca8b12f5-d2bd-4c76-93eb-839fcc5db00f',
+    name: 'Portland',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FSalt%20Lake.webp?alt=media&token=927ee324-bc96-40af-a7bd-2bb49cfe024d',
+    name: 'Salt Lake City',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FSan%20Jose.webp?alt=media&token=f762d621-b1d0-4b08-a2bf-f6a23ada2b5b',
+    name: 'San Jose',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FSeattle.webp?alt=media&token=2bcbdb5f-60c7-48ce-ab51-778149a6f9f0',
+    name: 'Seattle',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FSt.%20Louis.webp?alt=media&token=da2ee620-67d5-4a99-842c-48d67cb39b09',
+    name: 'St. Louis',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FToronto.webp?alt=media&token=1ebe8eeb-5be2-40c0-a3f4-d257371ad3b6',
+    name: 'Toronto',
+  },
+
+  {
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/clubes%20MLS%2FVancouver.webp?alt=media&token=068a0389-e0b8-4fed-b4a7-5dc6f0e5a028',
+    name: 'Vancouver',
+  },
+]
+
+export const leagueStories: SeriesObjectPost[] = [
+  {
+    category: 'MOMENTOS NOTÁVEIS',
+    title: 'Alonso Martinez',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/TNC6JMkynWFCbS35hUsACQ/1000x563.jpg',
+    description:
+      'O atacante da Costa Rica lidera a goleada do NYC sobre os rivais com dois gols.',
+  },
+
+  {
+    category: 'MOMENTOS NOTÁVEIS',
+    title: 'Patrick Agyemang',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/third-project-89e32.appspot.com/o/random%20image%2F600x338%20(3).webp?alt=media&token=1e09bb72-c4ea-4f54-8106-4ed284f916f3',
+    description:
+      'O jovem atacante do Crown espera sua chance e marca um gol e uma assistência como reserva.',
+  },
+
+  {
+    category: 'MOMENTOS NOTÁVEIS',
+    title: 'Mentalidade e Ambição',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/oUtLODxNX3tSpANUrDukww/1000x563.webp',
+    description:
+      'Acreditar no poder de mentalidades positivas impulsionou o sucesso da RSL.',
+  },
+
+  {
+    category: 'BONUS',
+    title: 'A reta final',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/MCHxGlt9gSi1VcXr93v_Ow/1478x832.webp',
+    description:
+      'Taylor analisa as disputas pela vaga do Oeste, os Wild Cards do Leste, o MVP e muito mais.',
+  },
+
+  {
+    category: 'SPORTS',
+    title: 'Pela Cidade: Noche Latina',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/d1/53/e7/d153e74f-be5c-7f92-2b8c-87fd575247a9/0566cda9-d802-47ae-ab37-87744756652d.png/738x416sr.webp',
+    description:
+      'A cidade de Nova York destaca o orgulhoso funcionário do clube e imigrante Ricardo Andrés.',
+  },
+
+  {
+    category: 'ESPORTES',
+    title: 'Carlos Vela, LAFC',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/1b/c6/4f/1bc64f6d-5d31-ad26-1abf-79f3e27e0b49/42285d9a-d4c0-424e-9de8-e7300645f27e.lsr/738x416sr.webp',
+    description:
+      'A primeira contratação do LAFC retorna para casa com os olhos postos em outra MLS Cup.',
+  },
+
+  {
+    category: 'MOMENTOS NOTÁVEIS',
+    title: 'Lionel Messi',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/0RQhsZs5nQoUA-mybGl3iA/1000x563.webp',
+    description:
+      'O GOAT retorna de forma espetacular com dois gols e uma assistência.',
+  },
+
+  {
+    category: 'MOMENTOS NOTÁVEIS',
+    title: 'Cucho',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/jSnadQaW37j5aPFDqvMaCQ/1000x563.webp',
+    description:
+      'O colombiano lidera o Crew sobre o LAFC, contribuindo para todos os três gols do seu clube.',
   },
 ]

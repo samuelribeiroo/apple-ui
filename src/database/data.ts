@@ -317,6 +317,104 @@ export const freeMatches: (Matches | FinishedMatches)[] = [
   },
 ]
 
+export const scheduleMatches: Matches[] = [
+  {
+    hour: 'SAB 8:30 PM',
+    teams: 'Columbus vs New England',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/c-Q5tkhZXB6SDr-gNGFgEw/738x416Sports.MLSPrB1.webp?imgLogoRight=054Rt8pmB4SA9LiqrhB2Jg&colorRight=%230A2240&colorLeft=%23000000',
+    league: 'MLS',
+  },
+
+  {
+    hour: 'SAB 8:30 PM',
+    teams: 'Vancouver vs. LAFC',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/whZT0iHRnHcmqhBFXwK0MQ/738x416Sports.MLSPrB1.webp?imgLogoRight=rNrQuDny5iiTxp7_CGq74w&colorRight=%23000000&colorLeft=%23202C4C',
+    league: 'MLS',
+  },
+
+  {
+    hour: '19/10/2024',
+    teams: 'Chicago vs. Nashville',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/3E-uqL1yQLu8A0lXIXjdsA/738x416Sports.MLSPrB1.webp?imgLogoRight=5dbchuK0JS0hLwf8YuDBJQ&colorRight=%23EDE939&colorLeft=%23FF0000',
+    league: 'MLS',
+  },
+
+  {
+    hour: '19/10/2024',
+    teams: 'D.C. vs. Charlotte',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/TF8RFnansqvKc2dQykZf1Q/738x416Sports.MLSPrB1.webp?imgLogoRight=EeCHZjYuAt7qU_KZvk0hRg&colorRight=%230085CF&colorLeft=%23000000',
+    league: 'MLS',
+  },
+
+  {
+    hour: 'SAB 8:30 PM',
+    teams: 'Miami vs New England',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/fPfWU7_0GAYTqAxEA2UX1g/738x416Sports.MLSPrB1.webp?imgLogoRight=054Rt8pmB4SA9LiqrhB2Jg&colorRight=%230A2240&colorLeft=%23F5B6CD',
+    league: 'MLS',
+  },
+
+  {
+    hour: 'SAB 8:30 PM',
+    teams: 'Montreal vs. New York City',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/oFLEPNLkQk3lMq0RsdQfBA/738x416Sports.MLSPrB1.webp?imgLogoRight=gHosevVXz6vBOONGvmD2Fw&colorRight=%239FD2FF&colorLeft=%23003DA6',
+    league: 'MLS',
+  },
+
+  {
+    hour: '19/10/2024',
+    teams: 'New York City vs. Columbus',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/bz0x-YVg5EQ6ZnbhNFLgsQ/738x416Sports.MLSPrB1.webp?imgLogoRight=c-Q5tkhZXB6SDr-gNGFgEw&colorRight=%23000000&colorLeft=%23D71B38',
+    league: 'MLS',
+  },
+
+  {
+    hour: '19/10/2024',
+    teams: 'Orlando vs. Atlanta',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/gNhQYLuiFBBNEtiBscKCPQ/738x416Sports.MLSPrB1.webp?imgLogoRight=d6U0-AroyEyn1K7zL7Z_bg&colorRight=%239D2235&colorLeft=%2361259E',
+    league: 'MLS',
+  },
+
+  {
+    hour: 'SAB 8:30 PM',
+    teams: 'Columbus vs New England',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/c-Q5tkhZXB6SDr-gNGFgEw/738x416Sports.MLSPrB1.webp?imgLogoRight=054Rt8pmB4SA9LiqrhB2Jg&colorRight=%230A2240&colorLeft=%23000000',
+    league: 'MLS',
+  },
+
+  {
+    hour: '19/10/2024',
+    teams: 'Philadelphia vs. Cinciannti',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/iXIxevYDAkD1eA4nIOcs9Q/738x416Sports.MLSPrB1.webp?imgLogoRight=UqxnaIq_FYW9AFeYTOPLCA&colorRight=%23FE5000&colorLeft=%23041C2C',
+    league: 'MLS',
+  },
+
+  {
+    hour: '19/10/2024',
+    teams: 'Minessota vs. St. Louis',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/gBzEBHuy800AMDC-xLTIgQ/738x416Sports.MLSPrB1.webp?imgLogoRight=LXdtAgsFTppgIi7bdUChUw&colorRight=%23e80a4d&colorLeft=%239bcde4',
+    league: 'MLS',
+  },
+
+  {
+    hour: '19/10/2024',
+    teams: 'Seattle vs. Portlando',
+    image:
+      'https://is1-ssl.mzstatic.com/image/thumb/YqTqMawsckTZlDhyHBlGug/738x416Sports.MLSPrB1.webp?imgLogoRight=6MhXD8E85SMjttv3Fakzhw&colorRight=%23004812&colorLeft=%232DC84D',
+    league: 'MLS',
+  },
+]
+
 export const acessTeams: Matches[] = [
   {
     hour: '11:30 PM',

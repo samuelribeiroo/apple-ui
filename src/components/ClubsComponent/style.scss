@@ -1,0 +1,69 @@
+.clubs-highlight-container {
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 0 40px;
+  padding: 0 40px;
+  min-width: 300px;
+  height: 100%;
+  max-height: 875px;
+  position: relative;
+  font-size: 13px;
+  line-height: 16px;
+  user-select: none;
+  z-index: 1;
+
+  @media screen and (max-width: 800px) {
+    margin: 0;
+    padding: 30px;
+  }
+
+  h2 {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--systemWhite);
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .club-img {
+    img {
+      width: 108px;
+      height: 108px;
+      border-radius: 50%;
+    }
+  }
+
+  .custom-swiper {
+    .swiper-button-next,
+    .swiper-button-prev {
+      top: 50%;
+      transform: translateY(-14%);
+      visibility: hidden;
+      transition:
+        visibility 0.3s,
+        opacity 0.3s ease;
+      opacity: 0;
+      color: #c5c5c5;
+    }
+
+    &:hover .swiper-button-next,
+    &:hover .swiper-button-prev {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+
+.clubs-information-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: px;
+
+  span {
+    font-size: 15px;
+    font-weight: 400 !important;
+    color: var(--systemWhite);
+  }
+}
